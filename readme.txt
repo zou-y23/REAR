@@ -1,5 +1,11 @@
+# REAR
+## Introduction
+This repository provides the PyTorch implementation of the paper "Egocentric Action Recognition with Retrieval-Augmented Learning".
 
-  pip install -r requirements.txt
+## Requirments
+- **Python** >= 3.10
+- **PyTorch** >= 2.4.1
+- **CUDA** >= 12.1
 
-  python run_rear_demo.py
-  python train_rear.py --synthetic --epochs 3
+## Datasets
+Prepare the datasets (EPIC-Kitchens-100, EGTEA Gaze+, Charades-Ego and YouCookII) according to the instructions. 
